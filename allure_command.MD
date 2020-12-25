@@ -1,5 +1,5 @@
-brew install allure	安装
-allure --version
+-- brew install allure	安装
+-- allure --version
 pip install allure-pytest		安装allure-pytest
 pytest test_alluredemo.py --alluredir=./result/5	运行pytest测试用例，并制定测试报告地址
 allure serve ./result/5	启动测试报告
@@ -19,3 +19,6 @@ pytest test_alluredemo_link.py --allure-link-pattern=issue:http://www.mytesttrac
 
 
 pytest test_sevenrity.py --alluredir=./result/7 --allure-severities normal,critical
+
+pytest test_attach.py --alluredir=./result/9
+

@@ -18,3 +18,7 @@ def test_with_testcase_link():
 @allure.issue('140','这是一个issue')
 def test_with_issue_link():
     pass
+
+
+if __name__ == '__main__':
+    pytest.main()
